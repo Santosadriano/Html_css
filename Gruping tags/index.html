@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <title>Gruping Tags</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                background-color:#9CE1FF;
+            }
+            header{
+                background-color:#2BA9E0;
+                padding:10px;
+                margin:8px; 
+            }
+            main{
+                background-color:#2BA9E0;
+               padding:10px;
+               margin:8px;
+            }
+            footer{
+                background-color:#0E6C94;
+                margin:0px;
+                font-family:serif;
+                padding:7px;
+                color: white;
+                text-align:center;
+                font: weight 10px;;
+            }
+            nav{
+                background-color:#0E6C94;
+                padding:2px;
+                text-align:right;
+                box-shadow:1px 1px 1px black
+            }
+            
+         nav > a {
+            text-decoration:none;
+            color:white;
+            margin:10px;
+         }
+
+         nav > a:hover {
+            text-decoration:underline;
+            color:aqua;
+         } 
+         article{
+            background-color:#75c7ea;
+            padding:4px;
+            border-radius:10px 20px 13px 30px;
+         }
+         h1{
+           font-family:helvetida;
+           text-decoration:none;
+         }
+         selection#assuntos{
+            padding:2px;
+            background-color:#0a1115;
+         }
+
+         footer > p {
+            margin:0;
+         }
+         a:hover{
+            color: #0E6C94;
+            background: color #9ce1f3;
+            text-decoration:none;
+
+         }
+         a::after{
+            color: rede;
+         }
+        </style>
+    </head>
+    <body>
+        <header>
+           <a href="#"> <h1>Meu site</h1></a>
+            <nav>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+                <a href="#">link</a>
+            </nav>
+        </header>
+        <main>
+            <selection id="assuntos">
+                <h2>Esportes</h2>
+                <p><ul>
+                    <li>Jogos de hoje</li>
+                    <li>Cassificação</li>
+                    <li>torneios</li>
+
+
+                </ul></p>
+            </selection>
+            <selection id="noticias">
+                <article>
+                    <h2>Notícias sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam est quos obcaecati ipsum expedita dignissimos cupiditate, dolorum, dolorem eum fugit unde. Soluta numquam autem culpa quibusdam distinctio animi omnis vel?</p>
+                    <aside>
+                        <p>Artigo escrito por Mario</p>
+                    </aside>
+                </article>
+                <article>
+            
+                </article>
+
+            </selection>
+        </main> 
+        <footer>
+            <p>Desenvolvido por Adriano</p>
+        </footer>
+    </body>
+</html>

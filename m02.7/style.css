@@ -1,0 +1,30 @@
+@charset "UTF-8";
+/* configurando pseudo-clesses e pseudo-elemento*/
+
+body{
+    font: normal 1em Arial, Helvetica, sans-serif;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(248, 67, 67)
+}
+a:visited {
+        color:rgb(109, 41, 22)
+}
+a:hover{
+    text-decoration:underline;
+}
+.especial:hover{
+    color:white;
+    background-color:black;
+    text-decoration:none;
+}
+.especial::before{
+    content:'>>';
+    font-weight:lighter;
+}
+.especial::after{
+    content:'<<';
+    font-weight:lighter;
+}
